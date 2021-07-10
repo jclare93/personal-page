@@ -72,6 +72,21 @@ hr{
   width: 200px;
 }
 
+img {
+  width: 100px;
+}
+
+.image-circle {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover; 
+    height: 125px;
+    width: 100px;
+    padding-top: 10px;
+}
+
 .wrapper {
   width: 350px;
   margin: auto;
