@@ -77,14 +77,33 @@ img {
 }
 
 .image-circle {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover; 
-    height: 125px;
-    width: 100px;
-    padding-top: 10px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover; 
+  height: 125px;
+  width: 100px;
+  padding-top: 10px; 
+}
+
+.image-square {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover; 
+  height: 200px;
+  width: 150px;
+  padding-bottom: 20px
+}
+
+ul{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1B3B6F;
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  list-style-position: inside;
 }
 
 .wrapper {
