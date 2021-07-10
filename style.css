@@ -1,7 +1,7 @@
+/* center my text */
 .text-center {
   text-align:center;
 }
-
 
 body{
   background-color:whitesmoke;
@@ -43,16 +43,14 @@ footer p {
   background-color: #21295C;
 }
 
+/* style my links*/
 a {
   text-decoration: none;
   margin-right: 40px;
   font-size: 14px;
   color: white;
 }
-hr{
-  border: 16px;
-  color: whitesmoke;
-}
+
 main{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #1B3B6F;
@@ -60,18 +58,20 @@ main{
   font-size: 16px;
 }
 
-footer a:hover {
+/*link styling*/
+a:hover {
   color: #777;
 }
 
+/* style the section separators */
 hr{
   border: 1px solid rgb(53, 53, 99);
-      /* size style color */
   margin-top: 10px;
   margin-bottom: 10px;
   width: 200px;
 }
 
+/* image styling */
 img {
   width: 100px;
 }
@@ -97,7 +97,17 @@ img {
   padding-bottom: 20px
 }
 
+/*list styling */
 ul{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #1B3B6F;
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
+  list-style-position: inside;
+}
+
+ol{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #1B3B6F;
   font-size: 14px;
